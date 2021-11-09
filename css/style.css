@@ -1,0 +1,291 @@
+/*PAGE INDEX*/
+
+#narutoar
+{
+  position: sticky;
+  margin-top: 200px;
+}
+
+#copyright
+{
+    position: absolute;
+    right: 20px;
+    bottom: 0px; 
+    font-family: 'Armata';
+    font-size: 18px;
+}
+
+#clockDisplay
+{
+  position: absolute;
+  left: 20px;
+  margin-bottom: 15px;
+  bottom: 0px;
+  font-family: 'Armata';
+  font-size: 18px;
+}
+
+#espaceavfooter
+{
+  text-align: center;
+  height: 300px;
+}
+.buttonaccueil {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  	border-radius: 24px;
+  	background-color: #ed4b87;
+  	border: none;
+  	color: #FFF;
+  	text-align: center;
+  	font-size: 24px;
+  	padding: 24px;
+  	width: 229px;
+  	height: 47px;
+  	transition: all 0.4s;
+  	cursor: pointer;
+  	font-family: 'Armata', sans-serif;
+    font-weight: bold;
+  	line-height: 0px;
+
+}
+
+.buttonaccueil span {
+  	cursor: pointer;
+  	display: inline-block;
+  	position: relative;
+  	color: white;
+  	transition: 0.4s;
+}
+
+.buttonaccueil span:after {
+  	content: '\00bb';
+  	position: absolute;
+  	opacity: 0;
+  	top: 0;
+  	right: -20px;
+  	transition: 0.5s;
+}
+
+.buttonaccueil:hover span {
+  	padding-right: 24px;
+}
+
+.buttonaccueil:hover span:after {
+  	opacity: 1;
+  	right: 0;
+}
+
+/*EN-TETE*/
+.logoentete
+{
+  position: absolute;
+  max-height: 80px;
+  left: 30px;
+  top: 10px;
+}
+
+#barrevideentete
+{
+  height: 24px;
+}
+
+#banniereentete
+{
+  height: 100px;
+  background-color: #ed4b87;
+
+}
+
+#ovaleentete
+{
+  width: 250px;
+  height: 100px;
+  border-radius: 0px 50px 50px 0px;
+  background: white;
+  position: absolute;
+  left: 0px;
+}
+
+#titreentete
+{
+  position: absolute;
+  left: 300px;
+  top: 28px;
+  font-family: "Armata";
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+#buttonentete
+{
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+#navbarentete
+{
+  position: absolute;
+  right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+#limenu
+{
+ font-size: 30px;
+ font-family: "Armata";
+}
+
+#navbartitres
+{
+  padding-top: 10px;
+  padding-right: 15px;
+}
+/*ZONE CONTENU*/
+
+#barrevide
+{
+  height: 52px;
+}
+
+#rectanglecontenu
+{
+  border-radius: 50px;
+  background-color: #ed4b87;
+
+}
+
+.textecontenu
+{
+  color: white;
+  font-family: 'Armata';
+  font-size: 2.2em;
+  margin-top: 40px;
+}
+
+#titre
+{
+  font-family: 'Armata';
+  color: white;
+  font-size: 2.5em;
+
+}
+
+
+/* Marges pour le bloc de contenu */
+
+.contenuBas
+{
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  padding-bottom: 150px;
+  background-color: #ed4b87;
+}
+
+.contenuHaut
+{
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+  padding-top: 150px;
+  background-color: #ed4b87;
+}
+
+/* CSS pour img naruto sur page accueil */
+
+.imgNarutoAccueil
+{
+  border-radius: 60px;
+}
+
+
+.BGColor
+{
+  background-color: #ed4b87;
+}
+
+/*Page synopsis*/
+
+#photosynopsis
+{
+  text-align: center;
+  border-radius: 200px 200px 200px 200px;
+  height: 600px;
+  width: 100%;
+}
+
+/*Page Personnages*/
+#imagePersonnages
+{
+  height: 200px;
+  width: 217px;
+  border-radius: 50px 50px 50px 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#nomPersonnages
+{
+  font-family: 'Armata';
+  color: white;
+  text-align: center;
+
+}
+
+#hoverPersonnages:hover
+{
+  transition-duration: 1s;
+  transform: scale(1.1);
+}
+
+.imgPersonnageSolo
+{
+  position: relative;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 700px;
+}
+
+#imageKurama
+{
+  position: relative;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 500px;
+}
+
+/*Page Techniques*/
+.repertoireTechniques
+{
+  list-style-type: none;
+
+}
+
+.technique
+{ 
+  border-radius: 20px 20px 20px 20px;
+  height: 300px;
+  width: 520px;
+}
+
+/*Page Contact*/
+#instagram
+{
+  height: 200px;
+  border-radius: 10px;
+}
+
+#snapchat
+{
+  height: 200px;
+  border-radius: 32px;
+}
